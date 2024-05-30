@@ -1,0 +1,14 @@
+[問1]
+答.Switch3
+
+[問2]
+答. ルートポート→Switch1 F0/2  計算：Switch→Switch3:19
+　　　　　　　　　Switch2 F0/1  計算：Switch2→Switch1→Switch3:19+19=38
+                   Switch4 E0/1  計算：Switch4→Switch2→Switch1→Switch3:19+19+19=57
+    
+　　指定ポート→Switch1 F0/1 理由：RPの向かいだから
+　　　　　　　　Switch2 F0/2 理由：RPの向かいだから
+　　　　　　　　Switch3 E0/1,E0/2 理由：ルートブリッジの全てのポートは指定ポートだから
+　　　　　　　　
+
+    ブロッキングポート→Switch4 E0/2 理由：RPにもDPにも選出されていないから
