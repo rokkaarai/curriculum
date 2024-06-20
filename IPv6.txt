@@ -1,5 +1,5 @@
 １）MACアドレス：AAAA.AAAA.AAAA
-    答. AB AA AA FF FE AA AA AA
+    答. A8 AA AA FF FE AA AA AA
 
 （２）MACアドレス：9876.5432.10FE
      答. 9A 76 54 FF FE 32 10 FE
